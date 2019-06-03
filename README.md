@@ -18,13 +18,13 @@
 REQUIREMENTS TO SATISFY
 
 * Foundation requirements
-> Use the existing Tesuji plasma chain design
-> Use the existing plasma contract design of omisego, so that the plasma contract code can be used as is or can be used to program a duplicate contract code in each root chain
+> * Use the existing Tesuji plasma chain design
+> * Use the existing plasma contract design of omisego, so that the plasma contract code can be used as is or can be used to program a duplicate contract code in each root chain
 
 * Core requirements
-> Support for multiple wallet addresses and private key schemes that each root chain uses.
-> Token transfers only within same root chain wallets(Ethereum, Cosmos, etc.)
-> Depositing and Withdrawing tokens, from and to different root chains
+> * Support for multiple wallet addresses and private key schemes that each root chain uses.
+> * Token transfers only within same root chain wallets(Ethereum, Cosmos, etc.)
+> * Depositing and Withdrawing tokens, from and to different root chains
 
 * Integration requirements
 > Must integrate well and support DEX across tokens from all the root chains
@@ -45,7 +45,7 @@ Wallet types are for Ethereum, Cosmos, etc. The wallet type is added to the UTXO
 
 > Example wallet types are Ethereum ECDSA : uses ECDSA secp256k1 eliptic curve & Keccak256 hashing, Cosmos EDDSA : uses EDDSA ed25519 eliptic curve & SHA256 hashing, etc.
 
->For wallet type Ethereum ECDSA, a sample private key to wallet address matching.
+> For wallet type Ethereum ECDSA, a sample private key to wallet address matching.
 > * STEP 1 : Public Key = ECDSA secp256k1(Private Key) -> converts private key to public key using ECDSA secp256k1.
 > * STEP 2 : hash = Keccak256(Public Key) -> Convertes public key to hash using Keccak256 or SHA3 hashing function
 > * STEP 3 : Wallet Address = ‘0x’ + last 20 bytes of hash.
@@ -62,19 +62,19 @@ Wallet types are for Ethereum, Cosmos, etc. The wallet type is added to the UTXO
 
 Wallet A is from root chain 1 (e.g., *Ethereum, DAI*), Wallet B is from root chain 2 (e.g., *OMG Cosmos Zone, ATOM*):
 
-> User of wallet A, creates a wallet A1 in plasma chain, with root chain id belonging to root chain 2 (e.g., *OMG Cosmos Zone*);
+> * User of wallet A, creates a wallet A1 in plasma chain, with root chain id belonging to root chain 2 (e.g., *OMG Cosmos Zone*);
 
-> User of wallet B, creates a wallet B1 in plasma chain, with root chain id belonging to root chain 1 (e.g., *Ethereum*);
+> * User of wallet B, creates a wallet B1 in plasma chain, with root chain id belonging to root chain 1 (e.g., *Ethereum*);
 
-> User of wallet A sends chain1 token amount (e.g., *DAI*) to wallet B1. User of wallet B sends equivalent chain2 token amount to wallet A1 (e.g., *ATOM*).
+> * User of wallet A sends chain1 token amount (e.g., *DAI*) to wallet B1. User of wallet B sends equivalent chain2 token amount to wallet A1 (e.g., *ATOM*).
 
 *THE SUBSEQUENT TECHNICAL STEPS HERE ARE:*
 
-1. Verify the above design from peers and make the necessary modifications
+**1.** Verify the above design from peers and make the necessary modifications
 
-2. Do the low level design or specification
+**2.** Do the low level design or specification
 
-3. Implement and Test
+**3.** Implement and Test
 
 ## Background Research Materials ⚡
 
