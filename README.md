@@ -1,7 +1,7 @@
 # ONC Plasma
 🔮 CONNECTING PLASMA TO MULTIPLE ROOT CHAINS 🔮
 
-## Independent ⚡ Plasma + Interoperability Research ⚡ F
+## Independent ⚡ Plasma + Interoperability Research ⚡ 
 
 
 
