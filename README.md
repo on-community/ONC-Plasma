@@ -4,6 +4,10 @@
 
 🔮 ⛓️ CONNECTING PLASMA TO MULTIPLE ROOT CHAINS ⛓️ 🔮
 
+Benefit: 
+* Makes Plasma interoperable across many Layer 1 blockchain networks like Ethereum, Cosmos, Polkadot.
+. Enabling this Layer 1 *bridge*, tokens can be used to indirectly execute contracts among different blockchain networks.
+
 ## Background Research Materials ⚡
 
 ### *What's Plasma, anyway?* 
