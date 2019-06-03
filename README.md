@@ -1,10 +1,10 @@
 # ONC Plasma
 
-## ⚡ Independent Plasma + Interoperability Research  
+## Independent Plasma + Interoperability Research ⚡  
 
-🔮 CONNECTING PLASMA TO MULTIPLE ROOT CHAINS 🔮
+🔮 ⛓️ CONNECTING PLASMA TO MULTIPLE ROOT CHAINS ⛓️ 🔮
 
-## ⚡ Background Research Materials
+## Background Research Materials ⚡
 
 ### *What's Plasma, anyway?* 
 
