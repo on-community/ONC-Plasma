@@ -17,19 +17,19 @@
 
 **Design:**
 
-REQUIREMENTS TO SATISFY
+- REQUIREMENTS TO SATISFY - 
 
 * Foundation requirements
-> * Use the existing Tesuji plasma chain design
-> * Use the existing plasma contract design of omisego, so that the plasma contract code can be used as is or can be used to program a duplicate contract code in each root chain
+> * Use the existing Tesuji plasma chain design.
+> * Use the existing plasma contract design of OmiseGO, so that the plasma contract code can be used *as is* or can be used to program a duplicate contract code in each root chain.
 
 * Core requirements
 > * Support for multiple wallet addresses and private key schemes that each root chain uses.
-> * Token transfers only within same root chain wallets (Ethereum, Cosmos, etc.)
-> * Depositing and Withdrawing tokens, from and to different root chains
+> * Token transfers only within same root chain wallets (Ethereum, Cosmos, etc.).
+> * Depositing and Withdrawing tokens, from and to different root chains.
 
 * Integration requirements
-> Must integrate well and support DEX across tokens from all the root chains
+> Must integrate well and support DEX across tokens from all the root chains.
 
 **HIGH LEVEL DESIGN**
 
@@ -39,7 +39,7 @@ The overall design is to use root chain id and wallet types with the existing Te
 
 The UTXO output already holds the token, token amount, wallet address, etc.
 
-Root chain id and wallet type needs to be additionally stored within the UTXO output
+Root chain id and wallet type needs to be additionally stored within the UTXO output.
 
 Root chain id can be some unique three/four letter symbol to identify the root chain he token belongs to. 
 E.g., *ZOMG for Cosmos OMG Zone*. This root chain id is added to the UTXO ouput.
@@ -50,7 +50,7 @@ Wallet types are for Ethereum, Cosmos, etc. The wallet type is added to the UTXO
 
 > For wallet type Ethereum ECDSA, a sample private key to wallet address matching.
 > * STEP 1 : Public Key = ECDSA secp256k1(Private Key) -> converts private key to public key using ECDSA secp256k1.
-> * STEP 2 : hash = Keccak256(Public Key) -> Convertes public key to hash using Keccak256 or SHA3 hashing function
+> * STEP 2 : hash = Keccak256(Public Key) -> Convertes public key to hash using Keccak256 or SHA3 hashing function.
 > * STEP 3 : Wallet Address = ‘0x’ + last 20 bytes of hash.
 
 *Deposits, Withdrawals and Transfers*
@@ -73,11 +73,11 @@ Wallet A is from root chain 1 (e.g., *Ethereum, DAI*), Wallet B is from root cha
 
 *THE SUBSEQUENT TECHNICAL STEPS HERE ARE:*
 
-**1.** Verify the above design from peers and make the necessary modifications
+**1.** Verify the above design from peers and make the necessary modifications.
 
-**2.** Do the low level design or specification
+**2.** Do the low level design or specification.
 
-**3.** Implement and Test
+**3.** Implement and Test.
 
 ## Background Research Materials ⚡
 
