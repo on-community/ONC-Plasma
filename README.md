@@ -17,7 +17,7 @@
 
 **Design:**
 
-- REQUIREMENTS TO SATISFY - 
+REQUIREMENTS TO SATISFY - 
 
 * Foundation requirements
 > * Use the existing Tesuji plasma chain design.
