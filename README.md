@@ -1,6 +1,6 @@
 # ONC Plasma
 
-## Independent Plasma + Interoperability Research ⚡  
+## Independent Plasma Application + Interoperability Research ⚡  
 
 🔮 ⛓️ **CONNECTING PLASMA TO MULTIPLE ROOT CHAINS** ⛓️ 🔮
 
