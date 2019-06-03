@@ -23,7 +23,7 @@ REQUIREMENTS TO SATISFY
 
 * Core requirements
 > * Support for multiple wallet addresses and private key schemes that each root chain uses.
-> * Token transfers only within same root chain wallets(Ethereum, Cosmos, etc.)
+> * Token transfers only within same root chain wallets (Ethereum, Cosmos, etc.)
 > * Depositing and Withdrawing tokens, from and to different root chains
 
 * Integration requirements
@@ -39,7 +39,8 @@ The UTXO output already holds the token, token amount, wallet address, etc.
 
 Root chain id and wallet type needs to be additionally stored within the UTXO output
 
-Root chain id can be some unique three/four letter symbol to identify the root chain he token belongs to. E.g., *ZOMG for Cosmos OMG Zone*. This root chain id is added to the UTXO ouput.
+Root chain id can be some unique three/four letter symbol to identify the root chain he token belongs to. 
+E.g., *ZOMG for Cosmos OMG Zone*. This root chain id is added to the UTXO ouput.
 
 Wallet types are for Ethereum, Cosmos, etc. The wallet type is added to the UTXO ouput. The wallet address in the UTXO output then corresponds to the wallet type. The wallet type is used to choose the transaction signing method. Given a private key, the wallet type is used to determine if the provided key matches with the wallet address. 
 
