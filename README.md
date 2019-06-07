@@ -1,6 +1,6 @@
 # ONC Plasma
 
-## Independent Plasma Application + Interoperability Research ⚡ (ONC-PAIR) ⚡
+## Plasma Application + Interoperability Research ⚡ (ONC-PAIR) ⚡
 
 ***[Results of ONC Bounty #1:](https://forum.omgnetwork.org/t/request-for-information-onc-stewardship-over-cosmos-spoon/61)*** 
 
