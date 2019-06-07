@@ -6,7 +6,7 @@
 
 🔮 ⛓️ **CONNECTING PLASMA TO MULTIPLE ROOT CHAINS** ⛓️ 🔮
 
-*ONC Multi-Root Plasma (ONC MRP)*
+*ONC Multi-Root Plasma (ONC MRP) Design*
 
 **Benefits:** 
 
